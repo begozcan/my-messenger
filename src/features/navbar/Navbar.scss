@@ -1,13 +1,17 @@
 .Navbar {
   width: 100%;
-  padding: 1.5vmin 3rem;
+  height: 5vh;
+  padding: 0 2rem;
   background: #abd8cb;
   text-align: left;
   display: flex;
   flex-direction: row;
   align-items: center;
+  box-shadow: 0 4px 2px -2px gray;
+  position: relative;
+  z-index: 100000;
 
-  .Navbar-title {
+  .title {
     font-size: 1.75rem;
     margin-left: 1rem;
   }

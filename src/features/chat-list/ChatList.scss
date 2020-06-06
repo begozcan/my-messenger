@@ -1,0 +1,44 @@
+.ChatList {
+  width: 25%;
+  background-color: #f6f6f6;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      border-bottom: 1px solid #ddd;
+      padding: 1rem 2rem;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover, &.selected {
+        background-color: #c9dcd7;
+      }
+
+      .circular-container {
+        display: inline-block;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+
+        img {
+          width: auto;
+          height: 100%;
+        }
+      }
+
+      .username {
+        margin-left: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

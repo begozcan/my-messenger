@@ -4,8 +4,8 @@ import './Navbar.scss';
 function Navbar() {
     return (
         <div className="Navbar">
-            <img alt="logo" src="speech-bubble.svg" />
-            <span className="Navbar-title">My Messenger</span>
+            <img alt="logo" src="pokeball.png" width="48px"/>
+            <span className="title">PokéMessenger</span>
         </div>
     );
 }

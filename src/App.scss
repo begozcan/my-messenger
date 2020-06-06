@@ -1,3 +1,10 @@
 .App {
   text-align: center;
+
+  .App-content {
+    width: 100vw;
+    min-height: 94vh;
+    display: flex;
+    flex-direction: row;
+  }
 }
