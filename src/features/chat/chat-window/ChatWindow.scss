@@ -1,7 +1,6 @@
 .ChatWindow {
   max-height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
   flex: 3;
   align-self: stretch;
@@ -32,6 +31,8 @@
     list-style-type: none;
     padding: 0 1rem;
     margin: 0;
+    overflow: auto;
+    max-height: 63vh;
 
     li {
       display: block;
@@ -63,6 +64,8 @@
     padding: 1rem;
     width: 100%;
     box-sizing: border-box;
+    background-color: #ffffff;
+    z-index: 1;
 
     textarea {
       width: 70vw;

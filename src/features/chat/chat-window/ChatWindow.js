@@ -10,8 +10,10 @@ function ChatWindow() {
 
     const onKeyUp = e => {
         if (e.key === 'Enter') {
+            // Dispatch message
             const message = {from: 0, to: currentChat.user.id, text: e.target.value};
             dispatch(sendMessage(message));
+            // Reset textarea
             e.target.value = '';
         }
     };

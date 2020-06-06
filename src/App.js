@@ -10,7 +10,7 @@ function App() {
             <header>
                 <Navbar/>
             </header>
-            <div className="App-content">
+            <div className="content">
                 <ChatList/>
                 <ChatWindow/>
             </div>

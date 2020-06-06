@@ -16,7 +16,9 @@ function ChatList() {
                         className={selectedChat && selectedChat.user.id === chat.user.id ? 'selected' : ''}
                         onClick={() => dispatch(setCurrentChat(chat.user.id))}>
                         <div className="circular-container">
-                            <img src={'avatars/' + chat.user.username.toLowerCase() + '.png'} alt="avatar"/>
+                            <img src={`${process.env.PUBLIC_URL}/avatars/${chat.user.username.toLowerCase()}.png`}
+                                 className={!chat.user.isOnline ? 'grayscale' : ''}
+                                 alt="avatar"/>
                         </div>
                         <span className="username">{chat.user.username}</span>
                     </li>
