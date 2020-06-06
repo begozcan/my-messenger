@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-messenger/static/css/main.7ad0e44c.chunk.css",
-    "main.js": "/my-messenger/static/js/main.dd72eb1f.chunk.js",
-    "main.js.map": "/my-messenger/static/js/main.dd72eb1f.chunk.js.map",
+    "main.css": "/my-messenger/static/css/main.8c5868b0.chunk.css",
+    "main.js": "/my-messenger/static/js/main.6c944434.chunk.js",
+    "main.js.map": "/my-messenger/static/js/main.6c944434.chunk.js.map",
     "runtime-main.js": "/my-messenger/static/js/runtime-main.6b799a64.js",
     "runtime-main.js.map": "/my-messenger/static/js/runtime-main.6b799a64.js.map",
     "static/js/2.3996cfa0.chunk.js": "/my-messenger/static/js/2.3996cfa0.chunk.js",
     "static/js/2.3996cfa0.chunk.js.map": "/my-messenger/static/js/2.3996cfa0.chunk.js.map",
     "index.html": "/my-messenger/index.html",
-    "precache-manifest.29e5681863c9545e1797bc673bdf311d.js": "/my-messenger/precache-manifest.29e5681863c9545e1797bc673bdf311d.js",
+    "precache-manifest.db02a614e42058cb5bc83899876b63df.js": "/my-messenger/precache-manifest.db02a614e42058cb5bc83899876b63df.js",
     "service-worker.js": "/my-messenger/service-worker.js",
-    "static/css/main.7ad0e44c.chunk.css.map": "/my-messenger/static/css/main.7ad0e44c.chunk.css.map",
+    "static/css/main.8c5868b0.chunk.css.map": "/my-messenger/static/css/main.8c5868b0.chunk.css.map",
     "static/js/2.3996cfa0.chunk.js.LICENSE.txt": "/my-messenger/static/js/2.3996cfa0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6b799a64.js",
     "static/js/2.3996cfa0.chunk.js",
-    "static/css/main.7ad0e44c.chunk.css",
-    "static/js/main.dd72eb1f.chunk.js"
+    "static/css/main.8c5868b0.chunk.css",
+    "static/js/main.6c944434.chunk.js"
   ]
 }
