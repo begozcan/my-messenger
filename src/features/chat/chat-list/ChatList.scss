@@ -1,6 +1,9 @@
 .ChatList {
-  width: 25%;
   background-color: #f6f6f6;
+  max-height: 100vh;
+  overflow: auto;
+  flex: 1;
+  align-self: stretch;
 
   ul {
     list-style-type: none;

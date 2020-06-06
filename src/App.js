@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.scss';
 import Navbar from "./features/navbar/Navbar";
-import ChatList from "./features/chat-list/ChatList";
+import ChatList from "./features/chat/chat-list/ChatList";
+import ChatWindow from "./features/chat/chat-window/ChatWindow";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             </header>
             <div className="App-content">
                 <ChatList/>
+                <ChatWindow/>
             </div>
         </div>
     );
